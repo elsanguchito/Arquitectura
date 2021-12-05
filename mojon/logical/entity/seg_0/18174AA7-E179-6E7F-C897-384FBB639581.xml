@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="habilitado" id="21FD7B46-920C-F20A-7514-380B1CC69DA1">
 <createdBy>User</createdBy>
@@ -50,6 +51,20 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="8847048B-6E44-A664-82B4-CDBC5528B106">
+<createdBy>User</createdBy>
+<createdTime>2021-12-01 20:10:45 UTC</createdTime>
+<generatorID>F68DF051-6316-1126-7548-E16D49A186E4</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -59,8 +74,9 @@
 <createdBy>User</createdBy>
 <createdTime>2021-11-29 20:32:00 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

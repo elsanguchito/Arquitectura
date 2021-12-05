@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A615E6BE-30F5-7D59-A9C7-A87F43A04687" name="Asignaturas">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>18174AA7-E179-6E7F-C897-384FBB639581</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="asignatura_id" id="33BBC958-46DD-1E35-2A7E-AF9942C26C6C">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>4F8DAA52-8C9A-26A6-ABE3-55D3A399F801</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4CAFCA90-4ED2-757A-5C0D-C166FA55D3DA">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>9BA21336-938D-3564-348A-3491F8B186D9</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habilitado" id="2BAB85B8-4737-2E13-80F4-5C7630CFA829">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>21FD7B46-920C-F20A-7514-380B1CC69DA1</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="administrador_usuarios_usuarios_ID" id="C58182DA-6441-7A54-2FAC-454E4B6E1295">
+<createdBy>User</createdBy>
+<createdTime>2021-12-01 19:58:09 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="administrador_usuario_id" id="8C823C20-8D62-BFA0-FC1B-3F1714FB2149">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>8847048B-6E44-A664-82B4-CDBC5528B106</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F61D65A-A8F7-B192-CDF0-254ED6DA9F3E" referredColumn="60C4ED6D-254F-14E8-D59B-6BCEF3EF476E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9E73F39-FE43-8E8B-D3E8-A78C7A027650" name="Asignaturas_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>F32FF50C-7118-1C13-F8F8-C63FCD109DC8</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33BBC958-46DD-1E35-2A7E-AF9942C26C6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0EDAC39-AC92-6510-B11A-ACC79B615175" name="Asignaturas_administrador_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:10:53 UTC</createdTime>
+<generatorID>F68DF051-6316-1126-7548-E16D49A186E4</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C823C20-8D62-BFA0-FC1B-3F1714FB2149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="participante_id" id="837EA200-E7C7-7EA5-CD47-8F9AD573316E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:42:46 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntos_totales" id="5B907891-88F5-4DA7-845D-E5EA2A6ACC97">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:42:47 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4590303E-0660-B22F-2E7A-15228DA81D7D" name="participante PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:43:06 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>837EA200-E7C7-7EA5-CD47-8F9AD573316E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

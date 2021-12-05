@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="661F8000-5E01-87E0-DF2E-9C5ED9600E7C" name="Individual">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>7695D75B-C3C3-BC26-FD39-5832011684B2</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="participante_id" id="E487F70D-67B1-6EB2-D3E3-D08BC01DDA48">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>837EA200-E7C7-7EA5-CD47-8F9AD573316E</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="590AA556-4B8B-5625-0D4C-F7D57A0CAEC6" referredColumn="8172DAAF-F6FC-21DA-10AD-6A6A61069E0F"/>
+</associations>
+</Column>
+<Column name="PuntosdesdeEquipoAnt" id="51232AC4-EA95-FB24-18A8-10C7E362B5BD">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>0B690002-126D-C651-5505-2CA5C40DA5AF</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED757343-06DF-8FCD-8BB1-ACB7FEE6DDBF" name="Individual_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>4590303E-0660-B22F-2E7A-15228DA81D7D</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E487F70D-67B1-6EB2-D3E3-D08BC01DDA48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29E3EFD8-EAD6-ABBE-36BB-D4A21687BF61" name="Individual_participante_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>7CD3210E-FE62-C547-6E06-BF14119794ED</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E487F70D-67B1-6EB2-D3E3-D08BC01DDA48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

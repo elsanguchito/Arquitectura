@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -39,7 +38,36 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupocurso_id" id="C4A00E1E-6366-D0E6-A503-2D2766CD5B43">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:09:06 UTC</createdTime>
+<generatorID>AE3E6C36-242D-5A75-D41D-863308F014CB</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>DDE66409-B191-A0EB-6B23-AED84355EFFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C141A17A-3DB5-B65C-F87B-05757C9D44CD" name="modulo PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:09:00 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA2EF940-D0BA-E76E-FD6C-346B427A70D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

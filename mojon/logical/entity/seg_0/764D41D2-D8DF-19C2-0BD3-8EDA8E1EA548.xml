@@ -14,4 +14,74 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="participante_id" id="6FA656BC-DC03-0EFE-B7A3-05D5DE0316ED">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:43:08 UTC</createdTime>
+<generatorID>7D988262-6676-528D-73EE-A439259A87AC</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>837EA200-E7C7-7EA5-CD47-8F9AD573316E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="actividad_id" id="20A3856D-E3FF-A453-5E8F-ECBA85833655">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:49:26 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contenido" id="11309DA5-6861-1CB9-7FB3-64C256BB4679">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:49:25 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntos" id="F21F6781-7764-ED3B-A5A1-FA55818A1403">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:49:26 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CA895F2-AA96-0007-CF0F-C535A42B2E87" name="actividad PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:50:35 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20A3856D-E3FF-A453-5E8F-ECBA85833655</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

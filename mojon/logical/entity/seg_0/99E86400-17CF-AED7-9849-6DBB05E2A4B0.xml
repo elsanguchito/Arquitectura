@@ -27,14 +27,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="asignatura_id" id="3CFEAA62-3D15-4848-0997-1A769D95632F">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:12:42 UTC</createdTime>
+<generatorID>20E98600-AA37-4D85-DB7B-D643CB764EE8</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>4F8DAA52-8C9A-26A6-ABE3-55D3A399F801</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7B50F44F-3D81-E672-6480-092C9DD972CD" name="Biblioteca_de_preguntas PK">
 <createdBy>User</createdBy>
 <createdTime>2021-11-29 20:44:33 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -50,7 +50,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fechaInicio" id="8337B09A-61B0-EA01-1867-8E3346FB4462">
@@ -63,7 +63,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="habilitado" id="439F8E75-8ACE-BE11-E703-C7D5090A37A4">
@@ -76,6 +76,21 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="0BA8593E-B3BA-331F-B053-0CF73041437B">
+<createdBy>User</createdBy>
+<createdTime>2021-12-01 20:08:14 UTC</createdTime>
+<generatorID>1F2595ED-A4A7-094A-60E9-3F6B36183509</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -85,8 +100,9 @@
 <createdBy>User</createdBy>
 <createdTime>2021-11-29 20:40:27 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -11,8 +11,24 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>540DABAD-262E-2FEC-F6C7-DC0552B6A1B5</hierarchicalParent>
+<hierarchicalParent>93FAC795-D61A-F05D-8DF0-0BED6B4A84C7</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuario_id" id="48609405-3B78-887C-4597-10E4E3AC607C">
+<createdBy>User</createdBy>
+<createdTime>2021-12-01 20:16:43 UTC</createdTime>
+<generatorID>DE23D0EB-469F-45D6-2513-AF1C71F7B4A7</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

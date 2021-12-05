@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44949A52-0159-0BE2-E44E-A13559DEC4B8" name="usuario">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>93FAC795-D61A-F05D-8DF0-0BED6B4A84C7</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="CF73F412-52CF-1C17-3E30-B5EEA92D773B">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="7AB00D8F-1EEE-8AF0-056D-64D8306F9F98">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>FF06D6A2-5355-7B18-09D4-4EC80C044E56</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="0195FB91-A09F-E5C8-2FA9-5BA28B3806C6">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>9BC89E3D-F7EE-1A15-EE71-5DBD2D59AFFA</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="06A87720-7ED1-645A-8452-3162CC20726D">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>2FEC4747-65CD-C0AC-D483-62855D769C71</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contraseña" id="FDC61BAF-AF47-620C-43C3-36E1DA259C8B">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>8753FFDB-6533-1E99-0D20-0F12B543DB11</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C651A91-ACFF-0814-2F22-6486E965F366" name="usuario_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>1C41F8A7-5973-C17D-F6DD-915ADEE11781</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF73F412-52CF-1C17-3E30-B5EEA92D773B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="247F8989-F358-076D-7BAF-30A08923CAAD" name="administrador">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>5ED836E5-0726-7739-8EF1-D53C548335C9</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuarios_usuarios_ID" id="1863F6C3-C356-3AAF-7784-714A90A30732">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_id" id="60C4ED6D-254F-14E8-D59B-6BCEF3EF476E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE29C76B-A7A6-1908-DB3B-BE31BD415E08" referredColumn="CF73F412-52CF-1C17-3E30-B5EEA92D773B"/>
+<colAssociation fkAssociation="A2FF5871-F469-7C9A-14DE-21CD1109F343" referredColumn="CF73F412-52CF-1C17-3E30-B5EEA92D773B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40CED701-379D-8E5D-A3FB-725BCE991517" name="administrador_usuario_id_UN">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>1C41F8A7-5973-C17D-F6DD-915ADEE11781</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C4ED6D-254F-14E8-D59B-6BCEF3EF476E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F883DD12-B69A-E61E-196A-6F6D7A711A09" name="administrador_usuario_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>7951170E-DF4D-2BE4-04E7-15272AAD73BE</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C4ED6D-254F-14E8-D59B-6BCEF3EF476E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1389FADE-5373-C0D7-F676-BA042FAB058F" name="administrador_usuario_FKv2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:35:08 UTC</createdTime>
+<generatorID>7C2F5BD1-8FAB-F4FF-6E04-050A2CD5E89D</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C4ED6D-254F-14E8-D59B-6BCEF3EF476E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

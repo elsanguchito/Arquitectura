@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C86FC4FA-9BAE-B365-1556-CE40C0F9F9B2" name="InscripcionGC">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>B03A66B1-18F1-A898-1079-A173C9CD52FD</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="InscripcionGC_ID" id="F2D25CC6-80CD-5923-C7D0-DFD3CFAFAD20">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Grupo-curso_grupocurso_id" id="22F52F09-9C46-E622-7656-E7FC076685C2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:35:08 UTC</createdTime>
+<generatorID>26A261B8-6FCB-307E-C95B-6AF004812E55</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CE0CDC1-8BB9-1202-B578-1A8110C18A99" referredColumn="D935C5EE-C56C-12BB-C5B3-3B9C3B43529A"/>
+</associations>
+</Column>
+<Column name="estudiante_administrador_usuario_id" id="2777DAB2-0357-1C46-8549-023B2E472D38">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:35:08 UTC</createdTime>
+<generatorID>7C01A143-8C16-AE37-0D30-58131474C84A</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estudiante_usuario_id" id="C78D4A50-E359-2A2C-82BA-F209D4A14B51">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:44:55 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="515BDB52-FF18-48F5-7388-FC31C245CDF5" referredColumn="3430C4FF-36BF-B44A-19BC-209598749E86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4126A50-E76B-734C-7402-9AAE22983FE3" name="InscripcionGC_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F2D25CC6-80CD-5923-C7D0-DFD3CFAFAD20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06579BCC-0A6A-A4A4-9738-2447FFEBA2DE" name="InscripcionGC_Grupo-curso_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:35:08 UTC</createdTime>
+<generatorID>B32E4A1C-149E-6925-91B3-E9EA69215EC2</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F52F09-9C46-E622-7656-E7FC076685C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57D30F8E-DE36-F330-2A2E-FCAADD7B1747" name="InscripcionGC_estudiante_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:35:08 UTC</createdTime>
+<generatorID>A9F9C74E-3749-BE67-D7E5-6586091D5403</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C78D4A50-E359-2A2C-82BA-F209D4A14B51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

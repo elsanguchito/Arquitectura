@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="540DABAD-262E-2FEC-F6C7-DC0552B6A1B5" name="usuarios">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93FAC795-D61A-F05D-8DF0-0BED6B4A84C7" name="usuario">
 <createdBy>User</createdBy>
-<createdTime>2021-11-29 20:49:27 UTC</createdTime>
+<createdTime>2021-11-30 03:29:48 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
 <engineerTo>
 <item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="usuario_id" id="877C3A2E-94AE-3B94-9DBB-D45B1C0A6882">
+<Attribute name="usuario_id" id="1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A">
 <createdBy>User</createdBy>
-<createdTime>2021-11-29 20:56:06 UTC</createdTime>
+<createdTime>2021-11-30 03:30:01 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
 <engineerTo>
 <item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
@@ -27,22 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut" id="DB79695A-9507-2336-174C-597F6ED5CD21">
+<Attribute name="rut" id="FF06D6A2-5355-7B18-09D4-4EC80C044E56">
 <createdBy>User</createdBy>
-<createdTime>2021-11-29 20:56:07 UTC</createdTime>
-<ownerDesignName>mojon</ownerDesignName>
-<engineerTo>
-<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="contraseña" id="DFAF65F8-7E64-A948-4B16-C439B9F5D9FD">
-<createdBy>User</createdBy>
-<createdTime>2021-11-29 20:56:07 UTC</createdTime>
+<createdTime>2021-11-30 03:30:02 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
 <engineerTo>
 <item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
@@ -53,9 +40,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="058FC854-38A1-F28C-1EC5-85D4A4DB905B">
+<Attribute name="apellido" id="9BC89E3D-F7EE-1A15-EE71-5DBD2D59AFFA">
 <createdBy>User</createdBy>
-<createdTime>2021-11-29 21:07:29 UTC</createdTime>
+<createdTime>2021-11-30 03:30:02 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
 <engineerTo>
 <item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
@@ -64,11 +51,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="apellido" id="96E07B3F-0366-0EF8-E880-45D5BD38F981">
+<Attribute name="nombre" id="2FEC4747-65CD-C0AC-D483-62855D769C71">
 <createdBy>User</createdBy>
-<createdTime>2021-11-29 21:09:04 UTC</createdTime>
+<createdTime>2021-11-30 03:30:02 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
 <engineerTo>
 <item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
@@ -77,20 +65,35 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contraseña" id="8753FFDB-6533-1E99-0D20-0F12B543DB11">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:31:03 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1545A36D-0279-1812-5A89-E6BA68A4FED3" name="usuarios PK">
+<identifier id="1C41F8A7-5973-C17D-F6DD-915ADEE11781" name="usuarios PK">
 <createdBy>User</createdBy>
-<createdTime>2021-11-29 21:06:00 UTC</createdTime>
+<createdTime>2021-12-01 20:05:47 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>877C3A2E-94AE-3B94-9DBB-D45B1C0A6882</attributeRef>
+<attributeRef>1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

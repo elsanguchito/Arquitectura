@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B03A66B1-18F1-A898-1079-A173C9CD52FD" name="InscripcionGC">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 17:06:26 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="grupocurso_id" id="26A261B8-6FCB-307E-C95B-6AF004812E55">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:07:07 UTC</createdTime>
+<generatorID>B32E4A1C-149E-6925-91B3-E9EA69215EC2</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>DDE66409-B191-A0EB-6B23-AED84355EFFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="9671AE9C-656B-4A4A-BE81-4D1C73E27CB8">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:44:10 UTC</createdTime>
+<generatorID>A9F9C74E-3749-BE67-D7E5-6586091D5403</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>1B9D8FA1-0E33-BCE3-4C9D-7F7B0F61495A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

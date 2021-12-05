@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E74BA84E-CD66-7AE2-F718-D87706288357" name="modulo">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>185B0A5A-97C3-F5A6-FB05-6D644FEF638E</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="modulo_ID1" id="FA1F51DD-4B27-C557-E8ED-5A53FB327507">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="modulo_id" id="68FE1D4C-B16F-491F-5021-FBD40230A52A">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>CA2EF940-D0BA-E76E-FD6C-346B427A70D1</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="16301341-1031-67C3-CE14-70C8345A3CB7">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<generatorID>E5DE1387-74D8-1C56-1F4A-2F2ECD044472</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grupo-curso_Grupo-curso_ID" id="0E920A62-7DDE-991C-79DC-46AFA2AA55FE">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupocurso_id" id="1B6E18A4-9B64-7042-3E19-88BB7C466053">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:10:53 UTC</createdTime>
+<generatorID>C4A00E1E-6366-D0E6-A503-2D2766CD5B43</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D49D5B0-8C31-9488-4CDB-2F79660C9FC1" referredColumn="D935C5EE-C56C-12BB-C5B3-3B9C3B43529A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA9B7739-7A92-0D5A-7E0D-D84A8FB57C99" name="modulo_PKv1">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:10:53 UTC</createdTime>
+<generatorID>C141A17A-3DB5-B65C-F87B-05757C9D44CD</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68FE1D4C-B16F-491F-5021-FBD40230A52A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29E8321F-9F69-7111-F299-226991158DE4" name="modulo_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:36:32 UTC</createdTime>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FA1F51DD-4B27-C557-E8ED-5A53FB327507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E75FC1D-4196-1E93-BF9B-C1F31DE5D520" name="modulo_Grupo-curso_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-02 18:05:44 UTC</createdTime>
+<generatorID>AE3E6C36-242D-5A75-D41D-863308F014CB</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6E18A4-9B64-7042-3E19-88BB7C466053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

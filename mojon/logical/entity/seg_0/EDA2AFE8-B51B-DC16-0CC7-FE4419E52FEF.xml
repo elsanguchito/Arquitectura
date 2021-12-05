@@ -63,6 +63,36 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="biblioteca_id" id="6B44862A-65A7-D7BC-5C8A-6CC656EF18D8">
+<createdBy>User</createdBy>
+<createdTime>2021-11-30 03:25:55 UTC</createdTime>
+<generatorID>A240B789-5380-EFF5-85D9-E5743668B50D</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<referedAttribute>874C2E9E-CFF8-A0DF-40F9-AA65C9245A29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pregunta_id1" id="22E30153-23F1-722A-698C-9FEAF607B671">
+<createdBy>User</createdBy>
+<createdTime>2021-12-03 20:06:00 UTC</createdTime>
+<generatorID>BF8735CF-FC03-92E7-59E7-B840CC5E333E</generatorID>
+<ownerDesignName>mojon</ownerDesignName>
+<engineerTo>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>27F8A60F-945A-9955-4060-343798E4BD22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -71,8 +101,9 @@
 <createdBy>User</createdBy>
 <createdTime>2021-11-29 21:39:58 UTC</createdTime>
 <ownerDesignName>mojon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="true"/>
+<item key="53A23283-2CC0-01DE-B23B-D59D8A0D1DE2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
