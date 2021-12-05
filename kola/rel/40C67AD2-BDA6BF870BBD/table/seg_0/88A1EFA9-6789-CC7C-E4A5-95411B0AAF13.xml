@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88A1EFA9-6789-CC7C-E4A5-95411B0AAF13" name="grupo-curso">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>42D96FF5-8B93-E5CF-DB79-D8098187C626</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="grupocurso_id" id="E0E8674A-91D3-7A98-D93E-14EEDEAC10D4">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>79D6837B-384C-8964-89D1-C23726863977</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meta" id="2CC1C3FF-4722-7B04-7FAA-42F9AF9F4DF4">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>8146E825-C063-1FEC-C4B6-B3786E07D7FB</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="letra" id="CF7C8908-A432-89E9-C932-25215C89984A">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>D35A6C1E-ED0B-206F-6AA9-D03BEAC452E8</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_curso_id" id="1DD2262E-4134-FD4C-EFDE-CCFA0A50CB21">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>28C4FA6A-D1E7-6425-3E0E-1ED0B7A1445C</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA700107-DBB5-3C62-49C3-F01BEF9C7BBE" referredColumn="210C4D66-CBDA-13E9-9C34-825B6B25B5F5"/>
+</associations>
+</Column>
+<Column name="curso_asignatura_administrador_usuario_id" id="93461ADC-4D21-684E-0897-9B7D211037F7">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>39A727C5-3982-E33D-5A61-6F5728C96E4D</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA700107-DBB5-3C62-49C3-F01BEF9C7BBE" referredColumn="629A3297-72CB-934A-53B8-D38BE24BCA5C"/>
+</associations>
+</Column>
+<Column name="curso_semestre_semestre_id" id="F2737390-8AB3-8665-9224-13CFE0717001">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>B119F567-2418-6758-A613-292722201F23</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA700107-DBB5-3C62-49C3-F01BEF9C7BBE" referredColumn="E72E7EA0-9F25-85E0-45E7-1C45E5DEA548"/>
+</associations>
+</Column>
+<Column name="curso_semestre_administrador_usuario_id" id="E1D567CF-4111-D5BE-08FE-18655FFB3630">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>15E9092D-9924-547A-EECF-C6716C4E8814</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA700107-DBB5-3C62-49C3-F01BEF9C7BBE" referredColumn="28C7783C-4F39-15B7-9B82-0A3976FF235C"/>
+</associations>
+</Column>
+<Column name="curso_asignatura_asignatura_id" id="15DECECA-07CB-275F-60F1-9E9FB119DE5F">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>A5B7874B-E3ED-DF7D-8E51-93770C00127E</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA700107-DBB5-3C62-49C3-F01BEF9C7BBE" referredColumn="A28F5987-3C24-D5CB-F192-D8BA87827880"/>
+</associations>
+</Column>
+<Column name="usuario_id2" id="EE92F5F0-9863-E02B-F7F5-A041CE0DBFB6">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>282F84B5-2784-F75E-9F1D-ED98AFEC54FB</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EF35AB5-5613-DE8E-418D-AAEBDA00DF25" name="grupo-curso_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>8D0209BD-488E-3A0A-FD0C-5BA173AB34EC</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0E8674A-91D3-7A98-D93E-14EEDEAC10D4"/>
+<colUsage columnID="1DD2262E-4134-FD4C-EFDE-CCFA0A50CB21"/>
+<colUsage columnID="93461ADC-4D21-684E-0897-9B7D211037F7"/>
+<colUsage columnID="F2737390-8AB3-8665-9224-13CFE0717001"/>
+<colUsage columnID="E1D567CF-4111-D5BE-08FE-18655FFB3630"/>
+<colUsage columnID="15DECECA-07CB-275F-60F1-9E9FB119DE5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26B54E58-FCA0-EFA6-3D12-E36D2D41D36E" name="grupo-curso_curso_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>E7004302-AD2F-6346-0575-1AC5286AA44A</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DD2262E-4134-FD4C-EFDE-CCFA0A50CB21"/>
+<colUsage columnID="93461ADC-4D21-684E-0897-9B7D211037F7"/>
+<colUsage columnID="15DECECA-07CB-275F-60F1-9E9FB119DE5F"/>
+<colUsage columnID="F2737390-8AB3-8665-9224-13CFE0717001"/>
+<colUsage columnID="E1D567CF-4111-D5BE-08FE-18655FFB3630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

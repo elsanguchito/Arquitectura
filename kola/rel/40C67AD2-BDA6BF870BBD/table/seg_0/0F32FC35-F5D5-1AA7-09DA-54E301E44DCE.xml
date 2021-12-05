@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F32FC35-F5D5-1AA7-09DA-54E301E44DCE" name="biblioteca_de_pregunta">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<generatorID>85E80B93-0C9D-E839-02CA-0A75E79B1FD8</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="biblioteca_id" id="EF3A1BC8-5CA0-866F-6795-5C284003F1E5">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<generatorID>456E7DCE-F373-EE50-8631-E045D3401CA9</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asignatura_administrador_usuario_id" id="FF202B8F-8FCB-C609-E242-76028BC302F8">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<generatorID>123D32CD-1D2E-FF1E-ABAC-AE764233D89C</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6F9B1B2-3479-B156-568E-A0AEC23F00DF" referredColumn="7DB8F7B1-EAD9-963B-92F9-14816938FEDA"/>
+</associations>
+</Column>
+<Column name="asignatura_asignatura_id" id="B03FD6F8-EB0F-FF72-DAFA-510AC41912B2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<generatorID>4D2EE4BA-7223-CBDB-4BFC-B298ECC51D3F</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6F9B1B2-3479-B156-568E-A0AEC23F00DF" referredColumn="1BB96C11-03E7-D3E4-5969-3FC2426156C2"/>
+</associations>
+</Column>
+<Column name="biblioteca_de_pregunta_ID" id="D1EF35D2-6466-FF2D-0327-A3DFCD453015">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7127E7B-60AA-D218-4C3D-188D6FDC6ABA" name="biblioteca_de_pregunta_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D1EF35D2-6466-FF2D-0327-A3DFCD453015"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6377611F-D2A3-5D32-08A4-C9CBDCD81310" name="biblioteca_de_pregunta__IDX">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>760505E1-B474-BCE8-297C-A9E6E60F587D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FF202B8F-8FCB-C609-E242-76028BC302F8"/>
+<colUsage columnID="B03FD6F8-EB0F-FF72-DAFA-510AC41912B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9374DEB8-FA75-1384-D0AC-C1521A2A6B0B" name="biblioteca_de_pregunta_asignatura_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:37:04 UTC</createdTime>
+<generatorID>760505E1-B474-BCE8-297C-A9E6E60F587D</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF202B8F-8FCB-C609-E242-76028BC302F8"/>
+<colUsage columnID="B03FD6F8-EB0F-FF72-DAFA-510AC41912B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C39E4023-147A-E761-2F68-6CA5A32BE08F" name="pregunta de la clase">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:29:35 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="modulo_id" id="42EE5D31-6809-D2A8-A29F-29DD7F641970">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:30:08 UTC</createdTime>
+<generatorID>2B697942-1E76-FDE7-CCEE-3BD7B2E5FBF0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>68DC56A2-6727-9B5D-1C56-158FAF30083A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupocurso_id" id="BF1654D6-B647-064A-5F45-5DD23445646C">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:30:08 UTC</createdTime>
+<generatorID>2B697942-1E76-FDE7-CCEE-3BD7B2E5FBF0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>7ABB0B2E-5727-96B6-C9E8-0E619FB6BB41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso_id" id="E85274FB-A825-8ED3-464C-39C26B9A598D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:30:08 UTC</createdTime>
+<generatorID>2B697942-1E76-FDE7-CCEE-3BD7B2E5FBF0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>E1578A6B-D16D-B35E-1EB2-298DD0C19945</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="semestre_id" id="BD73024F-ADF7-E10F-FA25-5F8F2330EC77">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:30:08 UTC</createdTime>
+<generatorID>2B697942-1E76-FDE7-CCEE-3BD7B2E5FBF0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>44E7CBD0-DDBA-4011-BDA6-8999B77FA4B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asignatura_id" id="C77A791D-8F2A-A8F0-508C-F3372A58176A">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:30:08 UTC</createdTime>
+<generatorID>2B697942-1E76-FDE7-CCEE-3BD7B2E5FBF0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>A46D54EE-A0FE-8D5D-6A5F-24BDE5224B1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id2" id="0F11DADD-13B8-AF2C-C0B2-ECE75F69D3D1">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:38:01 UTC</createdTime>
+<generatorID>2B697942-1E76-FDE7-CCEE-3BD7B2E5FBF0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>E2807BB5-051F-68A5-8EF7-F7CC11DDB639</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pregunta_id" id="6B1FAE64-DEB1-FF6A-5DEE-8D74B62200C2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:46:51 UTC</createdTime>
+<generatorID>55A66FF8-EA92-B3A6-4BB6-BE5804F66C7F</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>B56C6A4E-BF57-BD9B-5B69-22EC17A4D2B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clase_id" id="04D972F5-BFF5-F717-5F65-E801A0C5D7C6">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:46:55 UTC</createdTime>
+<generatorID>2B697942-1E76-FDE7-CCEE-3BD7B2E5FBF0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>14EEB21D-CB1A-8EF5-06CE-1AABCFF16E5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CAAB1F9-0711-64FE-3C65-76FDE7C1A1A0" name="pregunta de la clase PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:30:08 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42EE5D31-6809-D2A8-A29F-29DD7F641970</attributeRef>
+<attributeRef>BF1654D6-B647-064A-5F45-5DD23445646C</attributeRef>
+<attributeRef>E85274FB-A825-8ED3-464C-39C26B9A598D</attributeRef>
+<attributeRef>BD73024F-ADF7-E10F-FA25-5F8F2330EC77</attributeRef>
+<attributeRef>C77A791D-8F2A-A8F0-508C-F3372A58176A</attributeRef>
+<attributeRef>0F11DADD-13B8-AF2C-C0B2-ECE75F69D3D1</attributeRef>
+<attributeRef>04D972F5-BFF5-F717-5F65-E801A0C5D7C6</attributeRef>
+<attributeRef>6B1FAE64-DEB1-FF6A-5DEE-8D74B62200C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

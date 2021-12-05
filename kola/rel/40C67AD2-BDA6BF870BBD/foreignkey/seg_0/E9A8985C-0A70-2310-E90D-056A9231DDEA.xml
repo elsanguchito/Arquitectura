@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9A8985C-0A70-2310-E90D-056A9231DDEA" containerWithKeyObject="78CCBF89-1A69-76D7-425F-9F42EC58E6F1" localFKIndex="39C5D387-A0EC-7B91-A4E0-006A893BC0F1" name="ParticipacionPreguntaPropuesta_PreguntaPropuesta_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>13B05534-8C54-5623-F7F4-B17B1D87504E</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<referredTableLongName>PreguntaPropuesta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF57EB4F-845A-53A2-338A-2977503312D2</referredTableID>
+<keyObject>C4BBE582-6DD2-48B4-8D45-E1D5B2F7C87E</keyObject>
+<referredKeyID>C4BBE582-6DD2-48B4-8D45-E1D5B2F7C87E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>curso_curso_id,curso_asignatura_administrador_usuario_id,curso_asignatura_asignatura_id,curso_semestre_semestre_id,curso_semestre_administrador_usuario_id,usuario_id2,participante_participante_id,participante_estudiante_administrador_usuario_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

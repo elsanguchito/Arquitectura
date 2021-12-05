@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0219BA2-A02D-F87A-D00A-3E50053834C5" name="semestre">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>F827975D-03AC-9B1C-9517-11E39BE72BBE</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="semestre_id" id="422C3772-CF9E-A0E2-B461-12B57BFF7EDE">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>B8076A91-C2BD-10F4-3C04-46389B30F7BD</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NºSemestre" id="6FF574B6-A11B-CD25-D389-E8AC25EC6E7F">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>D91EB61F-B0CA-11F9-AE91-029D12CEE9C4</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaInicio" id="BD15A314-2317-D53A-9607-593C128CEC83">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>CD346716-D1BC-115C-2F14-35F5B96762AF</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaTermino" id="300BBC0E-B0B8-9F0F-D9A9-5A8DD1790F16">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>F36E14E2-D631-52A5-EFA6-4EBF1F7C0CCD</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habilitado" id="F9DD2537-E85E-3A4D-0D27-6D589C2D2D41">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>FD98D1EE-312E-B014-FAEB-1AFFF237BC42</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="administrador_usuario_id" id="135C1E23-0C08-018B-BDB9-D4F4116A1941">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>DE4E4150-23A2-964E-863D-E307614DEDA6</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C819E94E-D6A9-671E-11F5-0DA5501B195A" referredColumn="1E391BD8-245F-42DD-1DE9-C9871257633D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBAFA1CC-DB59-B72A-D5BF-32AEC2473A94" name="semestre_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>B0617BB7-25EF-D3D5-BA0A-E7D21CC5A869</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="422C3772-CF9E-A0E2-B461-12B57BFF7EDE"/>
+<colUsage columnID="135C1E23-0C08-018B-BDB9-D4F4116A1941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36B3B493-A8BF-FE2B-1D81-34D9720D69A2" name="semestre_administrador_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:53 UTC</createdTime>
+<generatorID>7EA07B08-9DB8-62FF-CDB4-CD9B6BC5BBF3</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="135C1E23-0C08-018B-BDB9-D4F4116A1941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

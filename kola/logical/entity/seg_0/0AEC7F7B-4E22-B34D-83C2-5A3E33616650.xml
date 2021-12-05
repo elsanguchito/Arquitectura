@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AEC7F7B-4E22-B34D-83C2-5A3E33616650" name="participante">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:45:59 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="participante_id" id="35726D1B-D78B-944D-8A0D-87ABBE36B0B2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:46:22 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntos_totales" id="B3F43721-DCC0-B2D1-BF08-CD766279A055">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:46:22 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="E6011A91-8DFF-DF17-DE43-0F6D5CC5B274">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:47:39 UTC</createdTime>
+<generatorID>32CEFA11-A591-F824-B0EB-6DC03392766D</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>F3F934ED-3257-2C1E-5595-74F5EBEBA490</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7254FAD4-0357-B178-54EB-9E101B12B8D0" name="participante PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:46:46 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35726D1B-D78B-944D-8A0D-87ABBE36B0B2</attributeRef>
+<attributeRef>E6011A91-8DFF-DF17-DE43-0F6D5CC5B274</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

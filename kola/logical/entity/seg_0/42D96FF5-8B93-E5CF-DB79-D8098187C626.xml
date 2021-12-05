@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42D96FF5-8B93-E5CF-DB79-D8098187C626" name="grupo-curso">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:38:32 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="grupocurso_id" id="79D6837B-384C-8964-89D1-C23726863977">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:38:38 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meta" id="8146E825-C063-1FEC-C4B6-B3786E07D7FB">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:38:38 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="letra" id="D35A6C1E-ED0B-206F-6AA9-D03BEAC452E8">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:39:17 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="curso_id" id="28C4FA6A-D1E7-6425-3E0E-1ED0B7A1445C">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:39:42 UTC</createdTime>
+<generatorID>E7004302-AD2F-6346-0575-1AC5286AA44A</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>FC41A494-7F3C-4B55-7F40-65EE92AE10A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="semestre_id" id="B119F567-2418-6758-A613-292722201F23">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:39:42 UTC</createdTime>
+<generatorID>E7004302-AD2F-6346-0575-1AC5286AA44A</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>7B76BFB4-178A-A35F-0976-2CA626C103A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asignatura_id" id="A5B7874B-E3ED-DF7D-8E51-93770C00127E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:44:25 UTC</createdTime>
+<generatorID>E7004302-AD2F-6346-0575-1AC5286AA44A</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>DA67CED5-CCC7-1DCD-B6BE-E59E35EF08DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id2" id="282F84B5-2784-F75E-9F1D-ED98AFEC54FB">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:38:01 UTC</createdTime>
+<generatorID>E7004302-AD2F-6346-0575-1AC5286AA44A</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>4BF06E5E-589E-6605-912C-0BAD0BE59521</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D0209BD-488E-3A0A-FD0C-5BA173AB34EC" name="grupo-curso PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:39:09 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79D6837B-384C-8964-89D1-C23726863977</attributeRef>
+<attributeRef>28C4FA6A-D1E7-6425-3E0E-1ED0B7A1445C</attributeRef>
+<attributeRef>B119F567-2418-6758-A613-292722201F23</attributeRef>
+<attributeRef>A5B7874B-E3ED-DF7D-8E51-93770C00127E</attributeRef>
+<attributeRef>282F84B5-2784-F75E-9F1D-ED98AFEC54FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

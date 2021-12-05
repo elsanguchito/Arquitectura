@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4D9E2FD-3DFE-CCBD-97C4-9FAF8B964099" name="individual">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>821A8E6A-50A9-DEB0-E4F6-4FD5701A2C11</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="participante_id" id="A8A1FCF4-6549-7090-A06F-9FA7B66075D2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>35726D1B-D78B-944D-8A0D-87ABBE36B0B2</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07E2F12B-F19A-E9DA-614D-750778143A5D" referredColumn="A4B1D9B9-30C6-9099-C34C-2DBF6C32691E"/>
+</associations>
+</Column>
+<Column name="usuario_id" id="6256B7B9-D63A-65B3-D953-118530E2CEF4">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>E6011A91-8DFF-DF17-DE43-0F6D5CC5B274</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07E2F12B-F19A-E9DA-614D-750778143A5D" referredColumn="EFFAFE97-804C-8C77-C4DC-007CEA0D05EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0CED305-45A4-DFAD-06E0-74749706F86D" name="individual_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>7254FAD4-0357-B178-54EB-9E101B12B8D0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A1FCF4-6549-7090-A06F-9FA7B66075D2"/>
+<colUsage columnID="6256B7B9-D63A-65B3-D953-118530E2CEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6769C49-0766-A25D-67B7-CBDD0BA6EE08" name="individual_participante_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>ABD720F5-4A53-507B-4405-5B39F656E0A4</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A1FCF4-6549-7090-A06F-9FA7B66075D2"/>
+<colUsage columnID="6256B7B9-D63A-65B3-D953-118530E2CEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

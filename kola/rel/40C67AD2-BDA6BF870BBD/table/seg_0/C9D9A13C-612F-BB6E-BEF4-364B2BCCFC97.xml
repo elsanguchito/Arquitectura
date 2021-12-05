@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9D9A13C-612F-BB6E-BEF4-364B2BCCFC97" name="estudiante">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>A588BE5B-9F24-6C93-416F-9A1A3B06120B</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="9875427F-9370-B659-0367-1038CA4F1339">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>A81CF36C-2BEF-303D-CF60-B2A433CF15D1</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C26F595-7D9E-64BD-FA62-6CC9C448C959" referredColumn="A26ABC01-9D4E-CD01-15E5-AB94CFAB2DC0"/>
+</associations>
+</Column>
+<Column name="administrador_usuario_id" id="C121E219-9AF0-BDFB-B383-26777B71BC6C">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>F3F934ED-3257-2C1E-5595-74F5EBEBA490</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AECDCF34-F8AB-320B-0577-FB6F0C177E48" referredColumn="1E391BD8-245F-42DD-1DE9-C9871257633D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E88A2EC8-B23B-C1FC-6022-940A1FE029D3" name="estudiante_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>15536DE9-EC45-2846-7DB0-020E6DB24845</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9875427F-9370-B659-0367-1038CA4F1339"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7DCB377-E40D-BE9B-7971-435B504DB140" name="estudiante_PKv1">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>8080E266-900D-CEBB-731F-A3E583C62283</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C121E219-9AF0-BDFB-B383-26777B71BC6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2815DD09-E3AD-30DC-FB8E-17128F26CF4B" name="estudiante_usuario_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>B03FCEAF-7873-1190-0888-C570D8D30D79</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9875427F-9370-B659-0367-1038CA4F1339"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="592567FA-9BC0-9494-E15B-5E2E4879BD63" name="estudiante_administrador_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:53 UTC</createdTime>
+<generatorID>7D1FA7CE-D7C4-25A4-9F1D-A55CE3F951E6</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C121E219-9AF0-BDFB-B383-26777B71BC6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

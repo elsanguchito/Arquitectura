@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80A70533-F51B-5234-3976-F9B7EEDBC3CB" name="participacion_pregunta">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:40:16 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="acierta" id="65CF9B85-48D9-F680-CE57-77392D327B6C">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:40:37 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pregunta_id" id="72732735-AC00-E7AC-74A2-26C1144EF9F7">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:46:51 UTC</createdTime>
+<generatorID>76712180-B6E4-45B9-9C73-33C542322E09</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>B56C6A4E-BF57-BD9B-5B69-22EC17A4D2B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="participante_id" id="E6451246-81D9-CC53-6402-2972C48FC43F">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:47:56 UTC</createdTime>
+<generatorID>6C8D1360-1F3D-45C2-73EB-80BD3D8B042B</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>35726D1B-D78B-944D-8A0D-87ABBE36B0B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="F20E9E67-072E-E24E-72CF-ED1C33D4206D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:47:56 UTC</createdTime>
+<generatorID>6C8D1360-1F3D-45C2-73EB-80BD3D8B042B</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>E6011A91-8DFF-DF17-DE43-0F6D5CC5B274</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CB21812-DF13-1363-B62F-28C9986B0333" name="participacion_pregunta PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:46:50 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72732735-AC00-E7AC-74A2-26C1144EF9F7</attributeRef>
+<attributeRef>E6451246-81D9-CC53-6402-2972C48FC43F</attributeRef>
+<attributeRef>F20E9E67-072E-E24E-72CF-ED1C33D4206D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

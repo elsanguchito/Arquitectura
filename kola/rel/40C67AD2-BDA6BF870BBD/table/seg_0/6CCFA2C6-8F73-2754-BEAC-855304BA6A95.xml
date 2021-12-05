@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CCFA2C6-8F73-2754-BEAC-855304BA6A95" name="participante">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>0AEC7F7B-4E22-B34D-83C2-5A3E33616650</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="participante_id" id="A4B1D9B9-30C6-9099-C34C-2DBF6C32691E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>35726D1B-D78B-944D-8A0D-87ABBE36B0B2</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntos_totales" id="3DBE5025-6B4C-9C78-194D-8DF5B99E1143">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>B3F43721-DCC0-B2D1-BF08-CD766279A055</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estudiante_administrador_usuario_id" id="EFFAFE97-804C-8C77-C4DC-007CEA0D05EB">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>E6011A91-8DFF-DF17-DE43-0F6D5CC5B274</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4B790AD-5E7B-AB3D-2BD4-1FDB1336A86B" referredColumn="C121E219-9AF0-BDFB-B383-26777B71BC6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67543526-9337-3D2A-0E70-680BCA285445" name="participante_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>7254FAD4-0357-B178-54EB-9E101B12B8D0</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4B1D9B9-30C6-9099-C34C-2DBF6C32691E"/>
+<colUsage columnID="EFFAFE97-804C-8C77-C4DC-007CEA0D05EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CF2CFB2-C8C0-9257-97D2-261B0FB44FCE" name="participante_estudiante_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 13:52:13 UTC</createdTime>
+<generatorID>32CEFA11-A591-F824-B0EB-6DC03392766D</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFFAFE97-804C-8C77-C4DC-007CEA0D05EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

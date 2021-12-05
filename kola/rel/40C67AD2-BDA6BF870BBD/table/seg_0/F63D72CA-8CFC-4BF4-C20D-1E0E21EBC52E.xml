@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F63D72CA-8CFC-4BF4-C20D-1E0E21EBC52E" name="asignatura">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>C39D28A7-DFC7-6DC5-C859-6C74C823FCE4</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="asignatura_id" id="1BB96C11-03E7-D3E4-5969-3FC2426156C2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>53374870-2E63-B404-FD0F-0E400EEBF899</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8D16657A-C229-4CD6-12D7-677DD32147EA">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>22429938-8DFE-BD52-608F-EB235A834015</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habilitado" id="64DC3BD5-2D1D-6F94-A5B3-6BF6E388710C">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>74F86874-F3E3-0008-D095-BF5DB0508FC5</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="administrador_usuario_id" id="7DB8F7B1-EAD9-963B-92F9-14816938FEDA">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>FA856F35-8497-0039-E945-69787BC12F82</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4623E5A-117C-A628-9251-E6598DC35E61" referredColumn="1E391BD8-245F-42DD-1DE9-C9871257633D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F1D0CFE-B33F-5B13-00CB-E16B0289D41C" name="asignatura_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>C6E257B9-3752-7B98-0554-977F2FBDDC4C</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB8F7B1-EAD9-963B-92F9-14816938FEDA"/>
+<colUsage columnID="1BB96C11-03E7-D3E4-5969-3FC2426156C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B835AE0-C874-992F-CD06-0B9CCA8EFA67" name="asignatura_administrador_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:53 UTC</createdTime>
+<generatorID>B65A0148-C3C1-5462-5B2E-2393540F1D20</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB8F7B1-EAD9-963B-92F9-14816938FEDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

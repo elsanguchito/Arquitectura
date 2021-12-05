@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A588BE5B-9F24-6C93-416F-9A1A3B06120B" name="estudiante">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:33:16 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>55CB04EF-61CA-F6A7-2D56-2754C6279FCE</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuario_id" id="F3F934ED-3257-2C1E-5595-74F5EBEBA490">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:37:36 UTC</createdTime>
+<generatorID>7D1FA7CE-D7C4-25A4-9F1D-A55CE3F951E6</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<referedAttribute>A81CF36C-2BEF-303D-CF60-B2A433CF15D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8080E266-900D-CEBB-731F-A3E583C62283" name="estudiante PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:37:36 UTC</createdTime>
+<ownerDesignName>kola</ownerDesignName>
+<engineerTo>
+<item key="40C67AD2-DEED-0BC2-BFBD-BDA6BF870BBD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3F934ED-3257-2C1E-5595-74F5EBEBA490</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

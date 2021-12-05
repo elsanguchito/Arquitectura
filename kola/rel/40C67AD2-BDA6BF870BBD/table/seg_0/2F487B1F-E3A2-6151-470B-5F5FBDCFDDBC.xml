@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F487B1F-E3A2-6151-470B-5F5FBDCFDDBC" name="administrador">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>BB42F189-145F-0EDF-775B-2A9AAEBB3881</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="1E391BD8-245F-42DD-1DE9-C9871257633D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>A81CF36C-2BEF-303D-CF60-B2A433CF15D1</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9328EB55-2B8B-F17F-B8AF-786775EBA1F2" referredColumn="A26ABC01-9D4E-CD01-15E5-AB94CFAB2DC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BDCCCF8-B9CE-9516-CD61-861BAADBE49C" name="administrador_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>15536DE9-EC45-2846-7DB0-020E6DB24845</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E391BD8-245F-42DD-1DE9-C9871257633D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C26920D-DDD3-574E-1B59-2B2643EF2924" name="administrador_usuario_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 12:46:52 UTC</createdTime>
+<generatorID>2574E13D-C561-F70B-5AF0-1A7363695562</generatorID>
+<ownerDesignName>kola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E391BD8-245F-42DD-1DE9-C9871257633D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
