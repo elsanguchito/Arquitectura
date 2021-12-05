@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2BB835D-9544-3614-8DBA-B98B03F0674C" name="pregunta_de_la_clase">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>0CA88F2D-5DCC-D1F6-9203-A37E0EC13FA1</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clase_clase_id" id="A5E37E21-EF5F-9E5D-AB77-59C1361C5E6D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>78F05F5D-E386-1FEA-2D71-DD48597A85FD</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7683A946-E2DC-6BF4-9EA4-12DE73653BF4" referredColumn="77E20A75-50EA-5F00-F7CA-7E3E6B7A759E"/>
+</associations>
+</Column>
+<Column name="pregunta_pregunta_Id" id="60F683FC-4749-4E9C-0DE3-BE402C7169DE">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>6CDF59B4-D983-E78F-2827-6024D4D10AD3</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8D7D4F7-D475-433C-318E-F7C32136F832" referredColumn="FF154607-900F-60E6-3733-B3E1A1C74BE4"/>
+</associations>
+</Column>
+<Column name="clase_modulo_modulo_id" id="F350FCE7-2D55-A3AE-C675-32E1524A6825">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7683A946-E2DC-6BF4-9EA4-12DE73653BF4" referredColumn="DFB270D2-369B-917C-F246-752E54B7C629"/>
+</associations>
+</Column>
+<Column name="pregunta_bibliote_de_preguntas_biblioteca_id" id="56ADCB60-8F52-3ADE-70D1-9E05951CCDFB">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8D7D4F7-D475-433C-318E-F7C32136F832" referredColumn="C981AD52-188F-539E-EB7C-376841803517"/>
+</associations>
+</Column>
+<Column name="modulo_id" id="EB79C4D9-30BC-F4A5-B8B2-E761F4CC63A8">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:22:59 UTC</createdTime>
+<generatorID>5FED7CBD-F3C5-818A-732D-CEF5B6A333B6</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupocurso_id" id="AC51495D-CDF1-9988-2C80-0440683A22AB">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:22:59 UTC</createdTime>
+<generatorID>ECEDF908-6CD7-D219-43AB-70D97FBCF138</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C2D3F3D-785D-37A5-1873-8618A762E987" name="pregunta_de_la_clase_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>58B67EAB-FD0F-32A9-AE59-3CB7D0657794</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E37E21-EF5F-9E5D-AB77-59C1361C5E6D"/>
+<colUsage columnID="60F683FC-4749-4E9C-0DE3-BE402C7169DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A975B98-98B8-2EB7-4C2F-8986DA2825AA" name="pregunta_de_la_clase_clase_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>6FE222D0-87F3-B5BF-A23F-B580FAB8466E</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E37E21-EF5F-9E5D-AB77-59C1361C5E6D"/>
+<colUsage columnID="F350FCE7-2D55-A3AE-C675-32E1524A6825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAEA3356-E853-A9C4-30E5-961618C31F8C" name="pregunta_de_la_clase_pregunta_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>8C6A635E-65FF-32E9-03B9-A9293C722A7E</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60F683FC-4749-4E9C-0DE3-BE402C7169DE"/>
+<colUsage columnID="56ADCB60-8F52-3ADE-70D1-9E05951CCDFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

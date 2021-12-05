@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E782787-42C3-B52C-AA93-0E38C2D695BF" name="equipo">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:36:28 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="equipo_id" id="BC772C33-89A6-9487-2937-97433538E47D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:38:46 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupocurso_id" id="6CDBCFD1-FE5F-C733-B609-6A8DE669912E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:41:05 UTC</createdTime>
+<generatorID>92FFA7FD-E134-F4C8-A8AC-22322B2940D6</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<referedAttribute>87B9C07C-FD47-3217-E099-03589EE0DA6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5A84E41-9318-49C9-583E-C6C93ED68C25" name="equipo PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:38:56 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC772C33-89A6-9487-2937-97433538E47D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

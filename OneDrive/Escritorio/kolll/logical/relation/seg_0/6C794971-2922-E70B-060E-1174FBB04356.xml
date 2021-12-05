@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nomina" directorySegmentName="seg_0" id="6C794971-2922-E70B-060E-1174FBB04356">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:38:30 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<targetPk>0920A7B7-1D03-5429-378E-AA910210BC48</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BF9FB54F-CFF5-6654-C95D-C95D58232496</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BF9FB54F-CFF5-6654-C95D-C95D58232496</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

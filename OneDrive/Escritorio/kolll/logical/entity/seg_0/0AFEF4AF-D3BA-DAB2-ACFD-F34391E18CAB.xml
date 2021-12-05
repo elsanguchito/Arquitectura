@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AFEF4AF-D3BA-DAB2-ACFD-F34391E18CAB" name="PreguntaPropuesta">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:20:38 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="grupocurso_id" id="C36A9390-3F17-E2BF-8F06-FC7EDAF725FC">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:21:31 UTC</createdTime>
+<generatorID>619FE71C-2ACD-4978-3A51-4749C03593F7</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<referedAttribute>87B9C07C-FD47-3217-E099-03589EE0DA6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="participante_id" id="63EAD1BC-33FE-DB07-34DE-65F0CC5EFAFC">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:37:16 UTC</createdTime>
+<generatorID>A4FACD64-A0A4-F76E-CED8-FBF14D7F2C7E</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<referedAttribute>E3799978-F70A-88F8-8C80-FE0E5D1AB62C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="234458C6-1FD0-F232-E52E-4B72A4D39B35" name="PreguntaPropuesta PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:21:31 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

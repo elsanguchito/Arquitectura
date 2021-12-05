@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81F29F9E-F6A8-7EAE-C9C9-873F1A41CD04" name="ParticipacionPreguntaPropuesta">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>880BB047-6C36-958D-BC43-61B2C821ADBF</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PreguntaPropuesta_grupocurso_id" id="9121FF28-BEFF-0313-B64D-22C86B72FD05">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>512BDC83-88B5-7BEE-69A8-D434F71B228C</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C3E668B-F6D2-3754-5DAF-B366FEAF5488" referredColumn="F1A2AB0C-E168-F7BB-3A72-FCB83B4915C4"/>
+</associations>
+</Column>
+<Column name="participante_participante_id" id="A15E5D49-E019-2E4B-218A-53DF949AEFB0">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<generatorID>71D9BE73-0F55-B63B-9F4C-88563AE9CF7F</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D26CD8A-CF77-3C26-3F65-786E91BB6933" referredColumn="4442257C-9CB1-FDB8-34E2-E8B49BC7ED7D"/>
+</associations>
+</Column>
+<Column name="PreguntaPropuesta_participante_id" id="02D95AA2-C199-1D20-B035-92A9FBA118BD">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C3E668B-F6D2-3754-5DAF-B366FEAF5488" referredColumn="13DF0AF7-696D-FA57-51B8-70AD38687338"/>
+</associations>
+</Column>
+<Column name="grupocurso_id" id="08173E23-EC1A-820F-0FC8-B3093E8B1E69">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:22:59 UTC</createdTime>
+<generatorID>528E5BDE-C0A1-635E-D3DD-F965E7D40D64</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="participante_id" id="FDCA7D2E-F663-3359-B4C1-95DBF9E80985">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:22:59 UTC</createdTime>
+<generatorID>9E30628E-A0E1-4AFB-DD40-00E4CD6A12EF</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="participante_estudiante_administrador_usuario_id" id="177E10EF-94C9-7D23-81D3-F8742148AAAD">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:22:59 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D26CD8A-CF77-3C26-3F65-786E91BB6933" referredColumn="2CA9CE72-56DC-7098-D33B-5346D2F131AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52AA2C78-40F9-312D-1158-76BA7C027A9F" name="ParticipacionPreguntaPropuesta_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>44D18F85-EECE-C423-F53D-9BF4216FA013</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9121FF28-BEFF-0313-B64D-22C86B72FD05"/>
+<colUsage columnID="02D95AA2-C199-1D20-B035-92A9FBA118BD"/>
+<colUsage columnID="A15E5D49-E019-2E4B-218A-53DF949AEFB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72078B5D-75DF-5B59-F57F-4DE379BA1DE8" name="ParticipacionPreguntaPropuesta_PreguntaPropuesta_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>A0620101-9F66-F482-E282-9FE87B51D466</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9121FF28-BEFF-0313-B64D-22C86B72FD05"/>
+<colUsage columnID="02D95AA2-C199-1D20-B035-92A9FBA118BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC9DFE6A-0287-5477-BDA4-CCF94ED4051C" name="ParticipacionPreguntaPropuesta_participante_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>F1799A33-FA6E-8AA3-3C6E-9EEEC85356A2</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="177E10EF-94C9-7D23-81D3-F8742148AAAD"/>
+<colUsage columnID="A15E5D49-E019-2E4B-218A-53DF949AEFB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EA6FB22-B873-DEAB-9580-7998237E669A" name="bibliote_de_preguntas">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:10:42 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="biblioteca_id" id="5EFC381A-54F0-A96D-707C-7CE2170C26AD">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:10:50 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asignatura_id" id="4FA3C3D8-7ECD-D6CF-95CF-294A4B7D39A6">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:11:30 UTC</createdTime>
+<generatorID>800DFC9C-B89F-017F-5B82-3BE096478987</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<referedAttribute>F117F7F8-6602-EDE2-1B09-F3E5BED56954</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2156150-6B42-7C8A-0E73-949A3C6542ED" name="bibliote_de_preguntas PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:11:01 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EFC381A-54F0-A96D-707C-7CE2170C26AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

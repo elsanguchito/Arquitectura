@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F44C855-68DA-2B98-336E-F5584CB7F09F" name="equipo">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<generatorID>4E782787-42C3-B52C-AA93-0E38C2D695BF</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="equipo_id" id="87BB2159-2F7F-100B-E656-971E04144354">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<generatorID>BC772C33-89A6-9487-2937-97433538E47D</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupo-curso_grupocurso_id" id="879579D6-4430-53DE-72A9-BB13390AFAF2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<generatorID>6CDBCFD1-FE5F-C733-B609-6A8DE669912E</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B2E7D20-4068-A853-582A-88DB210775A0" referredColumn="1EBBB7F7-26F6-471F-9D0A-5DBD5BF7EDE4"/>
+</associations>
+</Column>
+<Column name="grupo-curso_curso_curso_id" id="1114F387-8E45-F842-9BAA-E386F67B309C">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:22:59 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B2E7D20-4068-A853-582A-88DB210775A0" referredColumn="A09131CA-C66E-F581-E4F7-B8B5E7C5AE47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="078C7B33-22E8-DEF6-F67C-526AE1674987" name="equipo_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<generatorID>F5A84E41-9318-49C9-583E-C6C93ED68C25</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87BB2159-2F7F-100B-E656-971E04144354"/>
+<colUsage columnID="879579D6-4430-53DE-72A9-BB13390AFAF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95E0F708-AAB9-A974-FBE2-A09ACFF170E2" name="equipo_grupo-curso_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<generatorID>92FFA7FD-E134-F4C8-A8AC-22322B2940D6</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1114F387-8E45-F842-9BAA-E386F67B309C"/>
+<colUsage columnID="879579D6-4430-53DE-72A9-BB13390AFAF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

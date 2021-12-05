@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07D27EEA-0CF3-DBFE-CC75-390EAF12EA5E" name="clase">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:05:41 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="clase_id" id="B495A13A-2463-2B5B-D237-19CA5C56A343">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:05:46 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modulo_id" id="8CC240F8-C449-D4C3-FB43-9F26D4DC3322">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:07:32 UTC</createdTime>
+<generatorID>1A267CAF-BC81-360E-BE34-6B1CD9F48172</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="true"/>
+</engineerTo>
+<referedAttribute>682DF0EB-25E5-8DF9-8941-0ECE18A1E8DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10FD86F8-4C20-5360-1B5A-9C60943657E3" name="clase PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:05:56 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DEEF6756-79E3-83D4-FAEE-2181BCE93F42" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B495A13A-2463-2B5B-D237-19CA5C56A343</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

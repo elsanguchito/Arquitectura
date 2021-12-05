@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7E23DC3-C5C9-3C52-959F-BE69A9A64598" name="administrador">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>1A86DEAD-614C-9C72-F0E0-A94347370663</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="D6018982-15A7-0460-F43F-2389E3A95E6A">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>B4FFF814-77E6-7D50-5DF3-DA25D2C0CD82</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49911E89-367C-F33B-6EC6-2D8D48672041" referredColumn="FDADE283-E29D-638D-E37D-A97B9FD489D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="352A2E8C-8940-7910-F22C-259FAEACB6E3" name="administrador_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>55CD2EC9-D65A-1FCD-4CE3-35B99A69395E</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6018982-15A7-0460-F43F-2389E3A95E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16658EF3-BAAB-620C-9158-B83FC8DDDAEF" name="administrador_usuario_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>AAC24D85-1626-1135-0418-6D8462D6BFAF</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6018982-15A7-0460-F43F-2389E3A95E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

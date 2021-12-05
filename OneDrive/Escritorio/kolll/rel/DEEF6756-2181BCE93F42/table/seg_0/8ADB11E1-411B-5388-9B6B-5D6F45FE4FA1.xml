@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8ADB11E1-411B-5388-9B6B-5D6F45FE4FA1" name="inscripcionGC">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>A364EF13-11AA-2A11-8C7F-27D95D74883A</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="grupo-curso_grupocurso_id" id="1E653D67-A9B5-CECB-59A7-A2DFE506860D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>345A5222-F7B3-37CF-2AE7-91D74641BA8F</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9442202-EC0C-4E2E-D5ED-763D17089968" referredColumn="1EBBB7F7-26F6-471F-9D0A-5DBD5BF7EDE4"/>
+</associations>
+</Column>
+<Column name="grupo-curso_curso_curso_id" id="74D91A89-3370-6359-C4DC-29592AA3730E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9442202-EC0C-4E2E-D5ED-763D17089968" referredColumn="A09131CA-C66E-F581-E4F7-B8B5E7C5AE47"/>
+</associations>
+</Column>
+<Column name="estudiante_administrador_usuario_id" id="18C11C25-7F9E-C1BE-A4A1-7C6BC0E86CBA">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 20:19:55 UTC</createdTime>
+<ownerDesignName>kolll</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34D39322-03AE-8626-CECD-0CB80C3A5A09" referredColumn="C57751AF-AFA3-0B7F-3FF8-D1367DE7DE85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A571B28-28FE-EB9E-9C5E-9A89685CCE5C" name="inscripcionGC_PK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>DD835879-54E7-55F4-08E8-22D02EEFF562</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18C11C25-7F9E-C1BE-A4A1-7C6BC0E86CBA"/>
+<colUsage columnID="1E653D67-A9B5-CECB-59A7-A2DFE506860D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D7EC28F-7ACC-9C7D-982D-5772DE8B7BA0" name="inscripcionGC_grupo-curso_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>D1244786-D2DD-6919-602E-19473C7FAC2E</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74D91A89-3370-6359-C4DC-29592AA3730E"/>
+<colUsage columnID="1E653D67-A9B5-CECB-59A7-A2DFE506860D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA2D9031-363D-6096-DE6E-4152BEF4F265" name="inscripcionGC_estudiante_FK">
+<createdBy>User</createdBy>
+<createdTime>2021-12-05 19:26:12 UTC</createdTime>
+<generatorID>AF154D9E-74BA-1AE9-602F-B92263D6699E</generatorID>
+<ownerDesignName>kolll</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18C11C25-7F9E-C1BE-A4A1-7C6BC0E86CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
