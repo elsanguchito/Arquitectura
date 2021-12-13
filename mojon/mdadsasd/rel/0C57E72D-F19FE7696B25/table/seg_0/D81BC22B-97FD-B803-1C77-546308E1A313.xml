@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D81BC22B-97FD-B803-1C77-546308E1A313" name="profesor">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>AF41592E-675F-5572-B5B2-CD5ACDCECC42</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="CF235C36-45EA-B6F1-303C-302BDDB62F2E">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>A0A15748-7F28-2B54-3456-27387B329330</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="administrador_id_usuario" id="B5095A37-DBA3-9218-0321-0B7F23DF6B67">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>38AE3575-90A9-EBA6-A136-0C3ED4887E49</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE09266B-6B0A-B768-E550-AD5A2989F8DE" name="profesor_pk">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>2BC4F820-06E6-B4FD-DB7A-6DD8093E9323</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF235C36-45EA-B6F1-303C-302BDDB62F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

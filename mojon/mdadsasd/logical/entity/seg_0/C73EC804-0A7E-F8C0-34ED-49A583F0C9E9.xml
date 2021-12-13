@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C73EC804-0A7E-F8C0-34ED-49A583F0C9E9" name="modulo">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>5811E6E1-231C-9EBD-118D-955230572CE1</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id modulo" id="28978271-22AA-57B6-4F50-D0DECF7FEBC3">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>F6FBCB92-7D94-DAC5-4909-1A03F40C6C82</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9F164A5A-06FF-2C2F-4454-949E12A189B8">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>E6FB7868-1DD4-0F11-B532-100B43F9E8D9</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5DEF352-A1D0-AFFF-A097-CDBDC280796E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupocurso id grupocurso" id="3DD43EBF-99E6-01F6-0271-31F8CE03D208">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>CADD70AB-CC0D-D90F-9466-E84CB3EA119F</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="223B05D8-3673-F290-8C4A-9CC6CAD04879" name="modulo pk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>32B7764E-9161-D50B-173B-653D0F17ED26</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28978271-22AA-57B6-4F50-D0DECF7FEBC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

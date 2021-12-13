@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79B4840A-BB1B-917B-95B9-4E59EFF1CEF1" name="pregunta">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>41747572-4156-52E5-EBB7-A2381C395CA5</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pregunta" id="DD2F0483-ABFA-2EF2-1DC0-EA987F6AC908">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>5F57B44E-6605-9B02-7EBB-6F310823165E</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contenido" id="8C37E869-E935-F665-893F-45401475C7F2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>FDA24112-2EA9-4453-3BDA-1AB29E98290D</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5DEF352-A1D0-AFFF-A097-CDBDC280796E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tema" id="AC8A04A8-622F-3317-F73E-1AA966FF3FD2">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>B53E4D2F-56FE-C11A-1AD2-005DE2B63411</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5DEF352-A1D0-AFFF-A097-CDBDC280796E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtema" id="C736B395-F5DB-0616-8B90-F37D3B944D00">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>3A971706-B47D-4199-4156-15A3C8767DB7</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5DEF352-A1D0-AFFF-A097-CDBDC280796E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usado" id="5CE3BED3-B383-DFED-7B67-3C470D868CA4">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>227CC51D-D5B2-1A33-6243-F841DB78D249</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bibliotecapreguntas id biblioteca" id="C5E6FEC0-43EA-D186-C021-470CB3580159">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>5BA1FF4C-D042-61C0-5A2F-95D6FDDC9FBF</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pregunta id pregunta" id="6E247B1D-09F9-0A87-CEF1-094B8F61A190">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>14AFB174-5311-052B-AF2C-4CB005657758</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DD2F0483-ABFA-2EF2-1DC0-EA987F6AC908</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75687545-2CF9-854B-BA10-555F8C984C64" name="pregunta pk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>0056EB51-0040-527F-CA1C-C1A317EA71D8</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD2F0483-ABFA-2EF2-1DC0-EA987F6AC908</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

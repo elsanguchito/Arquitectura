@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94F28181-A697-51FE-AE4E-9D256B5E6D0E" name="semestre">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>8D2D596B-7AFB-AA35-6E97-3D8CDBB9075B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_semestre" id="9FCD5716-0E35-A3F1-B962-326BC5B7A258">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>AEAEB6F6-FBD8-524C-A6EA-ED8CF72C58A0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechainicio" id="A80C5C8E-CC76-0620-5B03-4F4CA92896E5">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>548EE653-A3C3-9A2F-5A18-1754A6C78DFD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4239AC80-ED63-F9D2-A50A-9DC10A7BD045</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechatermino" id="E9D48AA6-D13B-BB09-9A04-2DF32C36E0ED">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>E4FDD97A-5BA9-C6A3-006A-39EC761C8444</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4239AC80-ED63-F9D2-A50A-9DC10A7BD045</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nºsemestre" id="093191FD-A156-FDED-8F75-A1FE4825E0F8">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>F4193960-ED04-4E9F-C23C-33B5A19EDFF1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habilitado" id="1172570E-DF85-1AE8-5B23-CBF5B9C7403D">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>63F47C9E-59B1-7F29-F7A3-8B992E9F9EB1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="administrador_id_usuario" id="8CD236CC-4638-BE73-22CB-955D34981057">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>AF19C412-C2E7-36D6-40D0-359C3C076C72</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C586E8EE-5246-D77C-2939-45A6E8FDCC95" name="semestre_pk">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>1917F4FB-108B-DF77-D635-D81DBD4398B6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FCD5716-0E35-A3F1-B962-326BC5B7A258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

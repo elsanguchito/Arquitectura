@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6FCFE48-A4F1-C6D5-7EE7-05A6D70306AF" name="integrante_equipo">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>01943A3C-7907-2245-93FE-BFFAA9FCB195</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_participante" id="89784E8E-1F4D-7D21-C9E6-31F941E04FAB">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>AFDC1572-6422-5277-280D-0C9FC380DD71</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A31D6496-861E-47A1-532A-89B454C28764" referredColumn="EF65744D-27FA-D782-3652-BDE8FF5CFAD1"/>
+</associations>
+</Column>
+<Column name="equipo_id_equipo" id="A5293C60-7A38-A4FE-6A6E-4BFA8DF61E68">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>6593B27C-3ABA-F420-FF1B-A4C65C2BBB9B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nºparticipaciones" id="90231C27-C3E6-1E22-A49E-DEF3EFEB72FE">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>DC12D9BB-A48F-19DF-AF95-59CE2E571710</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nºrespuestasincorrectas" id="92D03CC1-B2A7-C0EA-6F2D-9E65807A886D">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>AF708920-1387-3839-EBAA-9CCDC0B90E7B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nºpuntosrecibidos" id="43FE036D-7A93-356D-FC5D-768C18DF95F4">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>A55568B7-9761-8C3A-3A14-FD2FAC40C24C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="integrante_equipo_id_participante" id="8013BF11-6A6F-31F6-431D-D245FD4C3A00">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>BFC58432-6F15-FF9C-69E0-487127BF5D30</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81881BC6-04E9-867C-E531-EBB8DDF10402" referredColumn="89784E8E-1F4D-7D21-C9E6-31F941E04FAB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A02C0EDE-9054-D0AF-D243-27A4AC58D4EF" name="integrante_equipo_pk">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>28B46402-2AFA-0BE3-B286-E49D1E0828BC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89784E8E-1F4D-7D21-C9E6-31F941E04FAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E352BF32-823B-891B-FFE5-62A36BBFD4F2" name="integrante_equipo__idx">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>3230938E-6BA5-87C1-0764-49EF70C6A111</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8013BF11-6A6F-31F6-431D-D245FD4C3A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F843D65A-E8E0-0C34-2DC9-AE57AB30AE52" name="integrante_equipo_integrante_equipo_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8013BF11-6A6F-31F6-431D-D245FD4C3A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BC45B7F-96F9-3C2A-C705-E09D611B972F" name="integrante_equipo_participante_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89784E8E-1F4D-7D21-C9E6-31F941E04FAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

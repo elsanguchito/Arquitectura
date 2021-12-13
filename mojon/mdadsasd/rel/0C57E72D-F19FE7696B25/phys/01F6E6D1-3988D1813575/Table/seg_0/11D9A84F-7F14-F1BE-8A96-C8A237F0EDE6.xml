@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="inscripciongrupocurso" directorySegmentName="seg_0" id="11D9A84F-7F14-F1BE-8A96-C8A237F0EDE6">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="grupocurso_id_grupocurso" id="A7B70ACC-01CC-CE03-3381-E5A2755B2766">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estudiante_id_usuario" id="E2B4276A-F50B-97FE-6C24-3C537345AE74">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="inscripciongrupocurso_pk" id="FBAA8BC3-4315-5D1F-5B40-41C7D7F5480D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

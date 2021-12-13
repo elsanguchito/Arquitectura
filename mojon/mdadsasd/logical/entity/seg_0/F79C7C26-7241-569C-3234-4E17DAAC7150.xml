@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F79C7C26-7241-569C-3234-4E17DAAC7150" name="usuario">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>72DDAB9E-2F75-EF61-D51D-1C777EA297D1</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id usuario" id="F9B73AF6-2AE4-5042-A13B-8B4AA3A6FF8E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>F5FEFF15-741E-5C00-2219-0BD78D410B7A</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A29995FC-B53E-5C0C-1A9E-D682D3FA0440">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>C3EE5F6C-2B7E-22DC-1995-D6F9ED9D04B4</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5DEF352-A1D0-AFFF-A097-CDBDC280796E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="0E7B2483-B447-CEF2-D8E7-5C495555AE44">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>3DA050B7-9D5C-299F-2196-6E8207E33384</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5DEF352-A1D0-AFFF-A097-CDBDC280796E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contraseña" id="22D167BE-DFA8-C1E0-5B86-0DE5A95DC3AD">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>C3A6FD28-27A5-4C2E-A81E-07FBB7B376C9</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5DEF352-A1D0-AFFF-A097-CDBDC280796E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="4DA092CA-E86D-D879-43CD-DBE43376D30D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>8EE45D14-BBDE-0036-9322-AA190C65FB91</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F5F2FE3-5F00-CA4D-A33F-01EE206E6233" name="usuario pk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>2DF5A09B-8ED5-0312-8D63-F0C52FC55339</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9B73AF6-2AE4-5042-A13B-8B4AA3A6FF8E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6A66178D-3517-8262-C063-29109C74CC68" name="usuario rut un">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>4F9634B8-3CC7-9E82-1E14-C7FCA5F25EBD</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>4DA092CA-E86D-D879-43CD-DBE43376D30D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="participacionpreguntapropuesta_participante_fk" directorySegmentName="seg_0" id="FA9EB049-A2F4-8640-9FD6-800C2405B344">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:24 UTC</createdTime>
+<generatorID>FF75CC73-5CB1-AA40-7D6F-CF301AA04CB2</generatorID>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<engineerTo>
+<item key="0C57E72D-F551-AD33-6223-F19FE7696B25" value="true"/>
+</engineerTo>
+<sourcePk>26771D3E-C27A-4D73-36F4-218AF4986C2C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75290A99-B0DF-0560-C069-6A93189A1CB3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E6E890D-383A-BA36-8A26-D7AD95D0A3DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

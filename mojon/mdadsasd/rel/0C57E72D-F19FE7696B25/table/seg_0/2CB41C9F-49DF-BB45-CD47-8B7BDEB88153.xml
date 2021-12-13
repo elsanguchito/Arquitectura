@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CB41C9F-49DF-BB45-CD47-8B7BDEB88153" name="participacionpregunta">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>E6C0D45A-9958-FB01-A050-EBFCEBACD0E8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_participacionpregunta" id="1E5EE4BA-5337-FEE3-93F4-23188AE18E3B">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>5CB9EF91-23CF-EFBC-DBCE-2CD794B28D82</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acierta" id="44033A91-0525-0BEF-603F-1C3A7228ACE6">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>3792D247-D0FA-EC5F-B1D2-BB44EA7919CD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="participante_id_participante" id="6C67FF8E-C6FA-62A7-1CAB-88F46459EAB7">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>A3252B38-C05E-AE8E-BB2E-7AEFD74F7F89</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F3464DF-C8FF-9751-A2ED-6F5A4F30E92B" referredColumn="EF65744D-27FA-D782-3652-BDE8FF5CFAD1"/>
+</associations>
+</Column>
+<Column name="pregunta_id_pregunta" id="E7B81EBC-4AFF-9093-068D-5BE34C6C2DC3">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>72FFCA90-FBFC-AF1A-BF5B-8CEEAE7118D0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>412A2053-B6C7-AAD9-A112-302937CCA489</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F2A6D7A-0B9D-BD05-7DD3-66F3F4F06161" referredColumn="5F57B44E-6605-9B02-7EBB-6F310823165E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1AD4C04-F0DA-A5B9-93AA-E12AED65DF28" name="participacionpregunta_pk">
+<sourceDDLFile>ultimo.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<importedID>73DF4749-A5C4-636A-910F-72341EB42F61</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C67FF8E-C6FA-62A7-1CAB-88F46459EAB7"/>
+<colUsage columnID="1E5EE4BA-5337-FEE3-93F4-23188AE18E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="377A6D67-AE1A-0C9A-06CE-3C0E75CDAF22" name="participacionpregunta_participante_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C67FF8E-C6FA-62A7-1CAB-88F46459EAB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="902F6D41-3A70-2C38-9351-150DF52016FA" name="participacionpregunta_pregunta_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-12 23:46:10 UTC</createdTime>
+<ownerDesignName>mdadsasd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7B81EBC-4AFF-9093-068D-5BE34C6C2DC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
