@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="participante" directorySegmentName="seg_0" id="1424BF5F-ABCD-42C2-EAA6-94F8E3FB8883">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="estudiante_id_usuario" id="D0A07BDF-E04A-8758-9CF6-D9AF7C1212DF">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_participante" id="E6084000-1C4F-D5CB-6228-ABCBCFF71BCE">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="grupocurso_id_grupocurso" id="EC3CBA80-5D1C-2BDA-7719-574F9BEE625E">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="participante_estudiante_fk" id="7576D436-E3F8-A362-16EC-8E92AF907D85">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="participante_grupocurso_fk" id="924EEA7B-C814-DB76-72C2-1E3E55462B2A">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="participante_pk" id="82DE6575-F85A-5826-5DEB-EEC514576571">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

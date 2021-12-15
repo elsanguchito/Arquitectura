@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27739351-06C2-66E9-C22F-879C43F65952" name="preguntapropuesta">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>D2372DB0-45AE-465A-AE27-44C70A2ADF4F</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id preguntapropuesta" id="224B7875-9CC4-397E-2016-2F81BCE630F4">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>34A4C23B-417F-4178-0FA8-2C5CCCE220CF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aprobado" id="35F06E6C-84B2-E225-F277-5088FE552839">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>DD57E312-70D7-4D87-6C41-020A35BF9CE6</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pregunta" id="0C327959-2881-6232-3741-6EEED72C7DF6">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>94FABFB2-2D30-2774-FD35-168D0CC54A6C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D7E07B0B-18E1-3CB4-DF0C-FF511B6E60E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="participante id participante" id="77AB6233-75D6-0638-C49C-7F0BE0418506">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>F775E4B3-BC5A-6170-E005-6AA87B5225A6</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<referedAttribute>9E533E4F-3FF2-22C8-5B59-8741E9850B3B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupocurso id grupocurso" id="7D708E6E-1909-AFCA-C6A7-68EDD3EAE8DA">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>71EE64EE-2D50-8772-ADFF-9304295FB4C4</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<referedAttribute>EE8C2A25-6BB7-8B59-9613-AE4AAD5BEB05</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E710C6A9-61FA-E7A6-0239-74409F01B9CC" name="preguntapropuesta pk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>1B4A4F35-FAF4-D9C6-21C4-A93EF29D8960</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>224B7875-9CC4-397E-2016-2F81BCE630F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

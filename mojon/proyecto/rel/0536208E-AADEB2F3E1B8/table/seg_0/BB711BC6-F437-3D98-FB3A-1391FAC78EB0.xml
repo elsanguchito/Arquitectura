@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB711BC6-F437-3D98-FB3A-1391FAC78EB0" name="bibliotecapreguntas">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>EBBFC42A-C2A7-8CAF-C4BE-E49430E9876B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_biblioteca" id="F6468FE5-D4C8-8442-398E-307DBFFDF712">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>1F54EB5C-18B9-AD71-60FA-120C662A4455</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asignatura_id_asignatura" id="5C8CC187-9B77-16B6-DFD2-E53700D869EB">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>224E3141-A9FC-B6E1-4810-E6A6521CC60F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4676966-A7AD-AD2A-A7C2-F1B9619598DF" referredColumn="D9BE4187-8BD5-F6B3-A512-44E9CFAFDE2B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7C63ECC-2227-9445-7109-B9A24F6CA88C" name="bibliotecapreguntas_pk">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>DAD08996-2B41-74D0-DCAA-2A8F8F1EE4EC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6468FE5-D4C8-8442-398E-307DBFFDF712"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4038913A-D7F1-D9D4-BAF0-992FD4736DAB" name="bibliotecapreguntas__idx">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>82044EA0-E7D8-6E50-F33B-D52CDCB0E4B2</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C8CC187-9B77-16B6-DFD2-E53700D869EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A47524D6-04A6-79CA-A88E-ADFB619E6BA8" name="bibliotecapreguntas_asignatura_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C8CC187-9B77-16B6-DFD2-E53700D869EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

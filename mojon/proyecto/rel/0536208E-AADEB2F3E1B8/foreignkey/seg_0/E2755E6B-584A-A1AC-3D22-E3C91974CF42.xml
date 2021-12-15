@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2755E6B-584A-A1AC-3D22-E3C91974CF42" containerWithKeyObject="D2372DB0-45AE-465A-AE27-44C70A2ADF4F" localFKIndex="96CDF7EF-C3D5-108B-49F7-D170228B2A39" name="preguntapropuesta_grupocurso_fk">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>84378260-BB1C-25E3-A41B-69C424103604</importedID>
+<referredTableLongName>grupocurso</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36F07CB8-8C0A-7364-D806-057A740D99A9</referredTableID>
+<keyObject>82AD54AF-095B-733E-E23E-1CB0188AD341</keyObject>
+<referredKeyID>82AD54AF-095B-733E-E23E-1CB0188AD341</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_grupocurso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

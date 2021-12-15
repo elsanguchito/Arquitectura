@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C319D57D-77C2-E68B-154A-C06974A262C5" name="participacionpregunta">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>A0DEE37C-F1E4-59F9-8D4C-61D2C9AC37A1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_participacionpregunta" id="E6D5791A-0480-8721-E03A-E4CD1B41187A">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>CB349F74-9538-2793-890A-15035B5F19C8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acierta" id="B4BB486A-F264-7A0F-A976-87E1833C30CB">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>6C6BB971-7162-9815-4817-ACA9780913AD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="participante_id_participante" id="046B16EE-B338-2CFF-432C-175ECAC38E97">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>83B5A8F8-5B04-8CBA-91FC-A02D2FD3D380</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B208F6DD-6E38-F636-7173-710A8C928F03" referredColumn="E6084000-1C4F-D5CB-6228-ABCBCFF71BCE"/>
+</associations>
+</Column>
+<Column name="pregunta_id_pregunta" id="346A3D0E-03D9-52BC-C3EE-4072F3D2C4C9">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>02574530-0EE2-2307-FA5F-B37C9EE5A95F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B62FD8F8-8A44-0331-04B1-887F654AA9C5" referredColumn="DEB8F17C-698F-E9A9-80E5-F6D9AC03231E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="638ADB24-B730-7BC9-29CD-0DB19ECFD69B" name="participacionpregunta_pk">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>94A3A0E1-0331-2EA7-C2F6-3E8FA27FFF3A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="046B16EE-B338-2CFF-432C-175ECAC38E97"/>
+<colUsage columnID="E6D5791A-0480-8721-E03A-E4CD1B41187A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE98C6DD-2A0B-18DD-7552-AF6F5C76D856" name="participacionpregunta_participante_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="046B16EE-B338-2CFF-432C-175ECAC38E97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31C9D1FD-DE74-BB7A-6D30-5F162970831D" name="participacionpregunta_pregunta_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="346A3D0E-03D9-52BC-C3EE-4072F3D2C4C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

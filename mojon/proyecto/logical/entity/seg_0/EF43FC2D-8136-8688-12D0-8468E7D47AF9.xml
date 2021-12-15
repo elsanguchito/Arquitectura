@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF43FC2D-8136-8688-12D0-8468E7D47AF9" name="inscripciongrupocurso">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>DB054C92-A784-6A4C-7F61-034979612030</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="estudiante id usuario" id="6C491B6F-B7C8-1DE2-0062-AEF4214C578A">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>0FF14D9E-97F3-DDF7-04C7-57FB2279FBDE</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<referedAttribute>54BB1253-976C-D652-703E-159D50077B10</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupocurso id grupocurso" id="92ADA626-C8D8-3EBB-1033-FF714733EED9">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>EFAD61A1-D850-30EE-4F01-1B3FD0DD05AF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<referedAttribute>EE8C2A25-6BB7-8B59-9613-AE4AAD5BEB05</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="612792FE-25C6-5007-2194-2BA9625DCA4B" name="inscripciongrupocurso pk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>6041F39F-38E0-10B7-D084-A5D38E301C8C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C491B6F-B7C8-1DE2-0062-AEF4214C578A</attributeRef>
+<attributeRef>92ADA626-C8D8-3EBB-1033-FF714733EED9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

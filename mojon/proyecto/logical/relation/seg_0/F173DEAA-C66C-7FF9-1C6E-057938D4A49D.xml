@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="bibliotecapreguntas_asignatura_fk" directorySegmentName="seg_0" id="F173DEAA-C66C-7FF9-1C6E-057938D4A49D">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>B4676966-A7AD-AD2A-A7C2-F1B9619598DF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<sourcePk>FFC6196C-1FBB-0115-A70A-C998BC064E97</sourcePk>
+<dominantRole>CB18FFD3-23E3-8F2B-0FB4-31ACDD65675C</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB18FFD3-23E3-8F2B-0FB4-31ACDD65675C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>296E277A-7037-A2B7-8611-F32C68D7F114</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

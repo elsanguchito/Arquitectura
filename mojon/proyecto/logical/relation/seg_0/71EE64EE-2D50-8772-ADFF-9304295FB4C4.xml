@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="preguntapropuesta_grupocurso_fk" directorySegmentName="seg_0" id="71EE64EE-2D50-8772-ADFF-9304295FB4C4">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>E2755E6B-584A-A1AC-3D22-E3C91974CF42</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<sourcePk>CE42A6AD-49F1-3691-EC4A-011B526485BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7EF372A-CAEF-81F0-CD75-F5842F716F00</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>27739351-06C2-66E9-C22F-879C43F65952</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

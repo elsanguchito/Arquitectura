@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DAAA088-A1C5-4AD9-558C-7BCA001D36BD" name="individual">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>730A7D38-F363-3C16-3778-EAC847049461</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_participante" id="C308346E-8BB7-8D1B-0043-CF4E0A0C9AAB">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>C950B2DD-77FC-A83B-11B3-5FA26C667974</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9074C63-AAC0-E8C6-A7CE-9384753DF811" referredColumn="E6084000-1C4F-D5CB-6228-ABCBCFF71BCE"/>
+</associations>
+</Column>
+<Column name="puntosdesdeequipoanterior" id="B8B6D716-5B07-1543-633D-426627338678">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>20545B3D-5889-D099-A836-2C2BF8FDE746</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipo_id_equipo" id="01763ECB-1205-8D83-366E-DBC997EB694E">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>DE837DE7-DD5B-29CA-8C09-FB4F1A9BF4EA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A662652A-2E79-0122-3E31-7DD6EC281A5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD3EF861-4283-F886-DD6A-B482D0774212" referredColumn="227E3002-8437-667B-E1E3-57E9560221A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04E42DCA-D7B9-982D-7452-813FDF92128F" name="individual_pk">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>AEEDAD7C-619C-DC9A-0B5D-87C91DA728B2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C308346E-8BB7-8D1B-0043-CF4E0A0C9AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92EBCE00-A85D-76EC-F9A4-4E3DAB8A5A51" name="individual_equipo_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01763ECB-1205-8D83-366E-DBC997EB694E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91A1DDCF-9304-950B-3759-0EF64FE5B03C" name="individual_participante_fk">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C308346E-8BB7-8D1B-0043-CF4E0A0C9AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

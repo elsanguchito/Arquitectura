@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2B09ABF-8874-B168-9BE1-84659F0E7572" containerWithKeyObject="1424BF5F-ABCD-42C2-EAA6-94F8E3FB8883" localFKIndex="924EEA7B-C814-DB76-72C2-1E3E55462B2A" name="participante_grupocurso_fk">
+<sourceDDLFile>comprobacion.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<importedID>B1AE5546-8B07-5A8E-5563-264345608549</importedID>
+<referredTableLongName>grupocurso</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36F07CB8-8C0A-7364-D806-057A740D99A9</referredTableID>
+<keyObject>82AD54AF-095B-733E-E23E-1CB0188AD341</keyObject>
+<referredKeyID>82AD54AF-095B-733E-E23E-1CB0188AD341</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_grupocurso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

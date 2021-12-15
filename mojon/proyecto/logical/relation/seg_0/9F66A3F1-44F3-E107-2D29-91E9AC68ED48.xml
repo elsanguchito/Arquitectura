@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="equipo_grupocurso_fk" directorySegmentName="seg_0" id="9F66A3F1-44F3-E107-2D29-91E9AC68ED48">
+<createdBy>User</createdBy>
+<createdTime>2021-12-15 01:17:27 UTC</createdTime>
+<generatorID>524C3845-F50B-6A78-954A-06F30761F93D</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="0536208E-8600-79C2-1587-AADEB2F3E1B8" value="true"/>
+</engineerTo>
+<sourcePk>CE42A6AD-49F1-3691-EC4A-011B526485BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7EF372A-CAEF-81F0-CD75-F5842F716F00</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95C8BEDA-367C-3BF7-B570-C5DCDFAED0BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
